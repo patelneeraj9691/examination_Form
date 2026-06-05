@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Registation form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        body{
+            background-color: rgb(223, 223, 199);
+            color: aliceblue;
+        }
+        h1{
+            color: rgb(62, 104, 137);
+        }
+       table,td,th{
+        padding: 8px;
+       }
+        #h{
+            background-color: #093C5D;
+            box-shadow: 7px 7px 20px;
+           
+            height: 100px;
+        }
+        td{
+            color: rgb(249, 245, 245);
+        }
+        #n{
+            background-color: #3B7597;
+            color: rgb(247, 249, 251);
+            font-size: 16px;
+           
+        }
+        #n1{
+            color: white;
+            background-color: #c8e5f6;
+            height: 15px;
+        }
+        #n2{
+    
+            background-color: #c8e5f6;
+            width: 170px;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <form action="">
+        <table id="h" border="2" cellspacing="5" cellspacing="8">
+            <h1>digital examination form</h1>
+            <tr>
+                <td ><i class="fa-solid fa-user"></i>student name:</td>
+                <td><input id="n1" type="text" placeholder="Enter nmae" required></td>
+            </tr>
+            <tr>
+                <td>roll number</td>
+                <td><input id="n1" type="text" placeholder="Enter R.No"></td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-graduation-cap"></i>course name</td>
+                <td><input id="n1" placeholder="enter course name"></td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-book"></i>subject name</td>
+                <td><input id="n1" placeholder="enter sub.name"></td>
+            </tr>
+            <tr>
+                <td>exam type</td>
+                <td><select id="n2" name="exam type" miltiple>
+                    <option value="select">select</option>
+                    <option value="mid term">mid term</option>
+                    <option value="final exam">final exam</option>
+                    <option value="practical exam">practical exam</option>
+                    <option value="re exam">re exam</option>
+                    <option value="viva">viva</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>exam date</td>
+                <td><input id="n2" type="date"></td>
+            </tr>
+            <tr>
+                <td>semester:</td>
+                <td><input id="n1" type="text" placeholder="year"></td>
+            </tr>
+            <tr>
+                
+                <td><i class="fa-solid fa-phone"></i>mobile number</td>
+                <td><input id="n1" type="number" placeholder="enter m.no."></td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-at"></i>email id</td>
+                <td><input id="n1" type="text" placeholder="enter email"></td>
+            </tr>
+        </table>
+    </form>
+</center>
+    
+</body>
+</html>
